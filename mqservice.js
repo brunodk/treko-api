@@ -1,7 +1,7 @@
 
 import amqp from 'amqplib/callback_api';
 
-const CONN_URL = 'amqp://rabbimq.100:5672';
+const CONN_URL = 'amqp://rabbimq:5672';
 
 let ch = null;
 
